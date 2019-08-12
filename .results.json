@@ -1,0 +1,44 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-08-12T22:09:52.744Z",
+    "end": "2019-08-12T22:09:52.763Z",
+    "duration": 19
+  },
+  "tests": [
+    {
+      "title": "must return the desired output",
+      "fullTitle": "account.js must return the desired output",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected { Object (Account before opening, New balance after signup bonus is , ...) } to deeply equal { Object (Account before opening, New balance after signup bonus is , ...) }",
+        "showDiff": true,
+        "actual": "{\n  \"Account after opening\": {\n    \"balance\": 1250\n    \"checking\": 1\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"Account before opening\": {\n    \"balance\": 1250\n    \"checking\": 1\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"New balance after signup bonus is \": 250\n}",
+        "expected": "{\n  \"Account after opening\": {\n    \"balance\": 1250\n    \"checking\": \"1\"\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"Account before opening\": {\n    \"balance\": 1250\n    \"checking\": \"1\"\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"New balance after signup bonus is \": 250\n}",
+        "stack": "AssertionError: expected { Object (Account before opening, New balance after signup bonus is , ...) } to deeply equal { Object (Account before opening, New balance after signup bonus is , ...) }\n    at Assertion.assertEqual (node_modules/chai/lib/chai/core/assertions.js:485:19)\n    at Assertion.ctx.(anonymous function) [as equal] (node_modules/chai/lib/chai/utils/addMethod.js:41:25)\n    at Context.<anonymous> (test/index.js:22:34)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must return the desired output",
+      "fullTitle": "account.js must return the desired output",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected { Object (Account before opening, New balance after signup bonus is , ...) } to deeply equal { Object (Account before opening, New balance after signup bonus is , ...) }",
+        "showDiff": true,
+        "actual": "{\n  \"Account after opening\": {\n    \"balance\": 1250\n    \"checking\": 1\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"Account before opening\": {\n    \"balance\": 1250\n    \"checking\": 1\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"New balance after signup bonus is \": 250\n}",
+        "expected": "{\n  \"Account after opening\": {\n    \"balance\": 1250\n    \"checking\": \"1\"\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"Account before opening\": {\n    \"balance\": 1250\n    \"checking\": \"1\"\n    \"name\": \"Azat Mardan\"\n    \"type\": \"checking\"\n  }\n  \"New balance after signup bonus is \": 250\n}",
+        "stack": "AssertionError: expected { Object (Account before opening, New balance after signup bonus is , ...) } to deeply equal { Object (Account before opening, New balance after signup bonus is , ...) }\n    at Assertion.assertEqual (node_modules/chai/lib/chai/core/assertions.js:485:19)\n    at Assertion.ctx.(anonymous function) [as equal] (node_modules/chai/lib/chai/utils/addMethod.js:41:25)\n    at Context.<anonymous> (test/index.js:22:34)"
+      }
+    }
+  ],
+  "passes": []
+}
