@@ -3,7 +3,7 @@ module.exports = function account() {
   var customerAccount = {
     balance: 0,
     name: 'Azat Mardan',
-    checking: '1'
+    checking: 1
   }
 
   function setAccountType () {
